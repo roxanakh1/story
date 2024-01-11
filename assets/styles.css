@@ -1,0 +1,59 @@
+h2 {
+    margin:50px 0;
+}
+
+h1 {
+    text-align: center;
+    width:100%;
+    margin:50px 0;
+    text-decoration: underline;
+}
+
+p {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.carousel {
+    margin:50px 0;
+}
+
+.list-group {
+    margin-bottom:50px;
+}
+
+.bitcoin p {
+    text-align: center;
+}
+
+.btn {
+    margin:30px auto;
+}
+
+.heart p {
+    text-align: center;
+}
+
+.img-willy {
+    margin:30px 0;
+    text-align: center;
+}
+.img-willy img {
+    display: inline-block;
+    margin:20px 40px;
+    height:500px;
+    border-radius:10px;
+}
+
+@media screen and (max-width:850px) {
+.carousel img {
+    height:280px !important;
+    border-radius:10px !important;
+}
+
+.img-willy img {
+    height:200px;
+    width:120px;
+    margin:20px 20px;
+}
+}
